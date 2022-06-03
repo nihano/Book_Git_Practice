@@ -1,0 +1,27 @@
+package day09_Scanner;
+
+
+import java.util.Scanner;
+
+public class DaysInWeek {
+    public static void main(String[] args) {
+        //Scanner input = new Scanner(System.in);
+        //if you have one input, you're gonna use it one time, you do not have to store it into the variable
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the day number:");
+        int num = input.nextInt();
+        String day = "Invalid";
+        if (num>=1 && num<=7){
+            day = (num==1)?"Monday":(num==2)?"Tuesday":(num==3)?"Wednesday"
+                    :(num==4)?"Thursday":(num==5)?"Friday"
+                    :(num==6)?"Saturday":"Sunday";
+        }
+        System.out.println(day);
+
+        input.close();
+
+
+
+    }
+}
