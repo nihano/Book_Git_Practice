@@ -18,9 +18,9 @@ public class Employee {
         this.jobTitle = jobTitle;
         this.salary = salary;
         this.id = id;
-    }
+    } // sets all the attributes of the Employee object at once
 
-    public String toString() {
+    public String toString() { // to avoid getting hascode when we print employee object
         return "Employee{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
