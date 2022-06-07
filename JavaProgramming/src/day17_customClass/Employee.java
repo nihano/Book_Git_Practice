@@ -29,5 +29,13 @@ public class Employee {
                 ", salary=" + salary +
                 ", id='" + id + '\'' +
                 '}';
+
     }
+
+    public void work(){
+        System.out.println(name+ " is working");
+
+    }
+
+
 }
