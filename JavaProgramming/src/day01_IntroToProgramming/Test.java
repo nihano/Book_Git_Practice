@@ -1,6 +1,6 @@
 package day01_IntroToProgramming;
 
-import Utilities.StringUtility;
+import utilities.StringUtility;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,7 +1,5 @@
 package day16_NestedLoop;
 
-import Utilities.StringUtility;
-
 public class FrequencyOfChar {
     public static void main(String[] args) {
         String str = "aaabbbccc";
